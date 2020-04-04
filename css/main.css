@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+.hidden {
+	display: none;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Srisakdi', cursive;
+}
+
+h3 {
+	font-size: 16px;
+	text-align: center;
+}
+
+body {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	background-color: #edeade;
+	color: #000;
+}
+
+#siteHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #9d8de6;
+	height: 60px;
+	width: 920px;
+	padding: 20px;
+}
+
+.logoText {
+	font-size: 48px;
+	color: #333;
+}
+
+#mainNav {
+	margin-top: 20px;
+}
+
+#mainNav ul {
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li a {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background-color: #777;
+	color: #fff;
+	padding: 8px;
+	margin: 5px;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#mainNav ul li a:hover {
+	background-color: #666;
+}
+
+#activePage {
+	position: relative;
+	top: 8px;
+}
+
+#aboutMembers {
+	margin: 40px;
+}
+
+#aboutMembers h2 {
+	text-align: center;
+	font-size: 20px;
+}
+
+#aboutImages {
+	display: flex;
+	justify-content: space-around;
+    padding: 20px;
+}
+
+#aboutBio {
+	margin: 0 auto;
+	width: 500px;
+}
+
+#aboutBio p {
+	text-align: center;
+	padding: 10px;
+	line-height: 20px;
+}
+
+.zkbio, .otherbio, .zkHeadline, .otherHeadline {
+	display: none;
+}
+
+.showbio, .showHeadline {
+	display: block;
+}
